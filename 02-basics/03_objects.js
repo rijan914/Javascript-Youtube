@@ -10,12 +10,12 @@ const mySym =Symbol("key1")
 
 
 const JsUser= {
-    name: "rijan",
-    "full name":"Rijan Bhandari",
+    name: "Archana",
+    "full name":"Archana Bhattarai",
     [mySym]: "myKey1", // symbol
-    age : 99 ,
-    location : "Spain",
-    email : "rijanbhandari14@gmail.com",
+    age : 100 ,
+    location : "Surkhet",
+    email : "Archanabhattarai11@gmail.com",
     isLoggedIn: false,
     lastLoginDays: ["Monday","Saturday"]
 
@@ -30,7 +30,7 @@ console.log(typeof(JsUser[mySym]) )
 JsUser.email = "chatgpt@gmail.com"
 // Object.freeze(JsUser) 
 // it will freeze the object and we can't change the value of the object
-JsUser.email ="rijan@gmail.com"
+JsUser.email ="archana@gmail.com"
 console.log(JsUser)
 
 JsUser.greeting = function(){

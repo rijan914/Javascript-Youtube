@@ -4,7 +4,7 @@
 const appUser={} // non singleton object
 
 appUser.id = "123ABC"
-appUser.name = "Rijan"
+appUser.name = "Archana"
 appUser.email= " avengers@gmail.com"
 appUser.isLoggedIn = false
 
