@@ -7,7 +7,7 @@ console.log(3+3)
 //code readability should be high
 
 
-let name="Archana"
+let name="Rijan"
 let age = 20
 // boolean => true or false 
 

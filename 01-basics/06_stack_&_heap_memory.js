@@ -1,7 +1,7 @@
 // stack (primitive), heap (non -primitive)
 //STACK(PRIMITIVE ) provides copy but heap provides reference of original value and changing the value make change in original value 
 
-let myYoutubename= "archana bhattarai.com"
+let myYoutubename= "rijan bhandari.com"
 
 let anotherName= myYoutubename
 anotherName="chaiaurcode.com"

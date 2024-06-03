@@ -1,7 +1,7 @@
 const accountId = 14453
-let accountEmail = "ArchanaBhattarai@gmail.com"
-var accountPassword ="234233"
-accountCity ="Surkhet"
+let accountEmail = "Rijan@gmail.com"
+var accountPassword ="w323"
+accountCity ="Salyan"
 
 let accountState
 //undefined //˜
@@ -11,7 +11,7 @@ console.table([accountId,accountEmail,accountPassword,accountCity])
 // accountId = 3 // not allowed 
 console.log(accountId)
 
-accountEmail ="archana11@gmail.com"
+accountEmail ="rijanbhandari14@gmail.com"
 accountPassword= "20590911"
 accountCity="Surkhett"
 
