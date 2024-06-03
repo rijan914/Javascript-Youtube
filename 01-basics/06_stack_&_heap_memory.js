@@ -1,7 +1,7 @@
 // stack (primitive), heap (non -primitive)
 //STACK(PRIMITIVE ) provides copy but heap provides reference of original value and changing the value make change in original value 
 
-let myYoutubename= "rijanbhandari.com"
+let myYoutubename= "archana bhattarai.com"
 
 let anotherName= myYoutubename
 anotherName="chaiaurcode.com"
@@ -16,7 +16,7 @@ let userOne= {
 
 let userTwo= userOne
 
-userTwo.email="salman@google.com"
+userTwo.email="hello@google.com"
 
 console.log(userOne.email)
 console.log(userTwo.email)

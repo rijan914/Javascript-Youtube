@@ -3,7 +3,7 @@
 //singleton 
 // Object.create  // constructer // singleton
 
-// object literals 
+// object literals - way of declaring the object 
 
 //symbol
 const mySym =Symbol("key1")
@@ -12,7 +12,7 @@ const mySym =Symbol("key1")
 const JsUser= {
     name: "rijan",
     "full name":"Rijan Bhandari",
-    [mySym]: "myKey1",
+    [mySym]: "myKey1", // symbol
     age : 99 ,
     location : "Spain",
     email : "rijanbhandari14@gmail.com",
@@ -28,7 +28,8 @@ console.log(JsUser[mySym])
 console.log(typeof(JsUser[mySym]) )
 
 JsUser.email = "chatgpt@gmail.com"
-// Object.freeze(JsUser)
+// Object.freeze(JsUser) 
+// it will freeze the object and we can't change the value of the object
 JsUser.email ="rijan@gmail.com"
 console.log(JsUser)
 

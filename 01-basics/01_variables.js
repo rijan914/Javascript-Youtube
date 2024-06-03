@@ -1,19 +1,19 @@
 const accountId = 14453
-let accountEmail = "Rijan123@gmail.com"
-var accountPassword ="12355"
-accountCity ="Lanti"
+let accountEmail = "ArchanaBhattarai@gmail.com"
+var accountPassword ="234233"
+accountCity ="Surkhet"
 
 let accountState
-//undefined //
+//undefined //˜
 
 console.table([accountId,accountEmail,accountPassword,accountCity])
 
 // accountId = 3 // not allowed 
 console.log(accountId)
 
-accountEmail ="rijan1@gmail.com"
-accountPassword= "1123231"
-accountCity="salyan"
+accountEmail ="archana11@gmail.com"
+accountPassword= "20590911"
+accountCity="Surkhett"
 
 // console.log(accountId)
 console.table([accountId,accountEmail,accountPassword,accountCity,accountState])
